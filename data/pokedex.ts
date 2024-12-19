@@ -1,16 +1,15 @@
 export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
-	bulbasaur: {
+	rathalos: {
 		num: 1,
-		name: "Bulbasaur",
-		types: ["Grass", "Poison"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
-		abilities: {0: "Overgrow", H: "Chlorophyll"},
+		name: "Rathalos",
+		types: ["Fire", "Flying"],
+		genderRatio: {M: 1, F: 0},
+		baseStats: {hp: 99, atk: 85, def: 80, spa: 125, spd: 65, spe: 90},
+		abilities: {0: "Flash Fire", H: "Poison Touch"},
 		heightm: 0.7,
 		weightkg: 6.9,
-		color: "Green",
-		evos: ["Ivysaur"],
-		eggGroups: ["Monster", "Grass"],
+		color: "Red",
+		eggGroups: ["Monster"],
 	},
 	ivysaur: {
 		num: 2,
